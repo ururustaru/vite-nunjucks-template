@@ -1,0 +1,26 @@
+:root {
+  --bg-color: #F8F8F8;
+  --text-color: #212121;
+  --text-color-secondary: #616469;
+
+  --accent: #004BDD;
+
+  --colored1: #004BDD;
+  --colored2: #00DD66;
+  --colored3: #1F00DD;
+  --colored4: #00B5DD;
+  --colored5: #6100DD;
+
+  --colored2-shadow: 0px 20px 60px 0px rgba(0, 221, 102, 0.40);
+  --colored4-shadow: 0px 20px 60px 0px rgba(0, 168, 221, 0.40);
+  --colored5-shadow: 0 20px 60px 0 rgba(97, 0, 221, 0.4);
+
+  // Shadows
+  --accent-btn-shadow: 0px 20px 60px 0px rgba(0, 75, 221, 0.40);
+  --neomorphic-shadow: 4px 5px 10px 0px rgba(115, 115, 115, 0.20), -8px -6px 20px -3px #FFF;
+  --photo-shadow: 0px 20px 60px 0px rgba(139, 139, 139, 0.40);
+  --card-shadow: 0px 20px 60px 0px rgba(139, 139, 139, 0.40);
+
+  --font-title: Unbounded, Arial, Helvetica, sans-serif;
+  --font-text: Inter, Arial, Helvetica, sans-serif;
+}

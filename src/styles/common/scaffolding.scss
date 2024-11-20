@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--bg-color);
+  color: var(--text-color);
+  font-family: var(--font-title), sans-serif;
+  padding: 30px;
+}
+
+a {
+  text-decoration: none;
+  font-family: var(--font-title), sans-serif;
+}
+
+a, button, path, circle, svg {
+  transition: 0.3s;
+  font-family: var(--font-title), sans-serif;
+  outline: none;
+}
+
+.fancybox__viewport {
+  .fancybox__content {
+    padding: 35px 70px;
+    max-width: 700px !important;
+    border-radius: 50px;
+  }
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+@include down(1199px) {
+  .fancybox__viewport {
+    .fancybox__content {
+      padding: 20px;
+      max-width: 100% !important;
+      border-radius: 20px;
+      width: 90%;
+    }
+  }
+}

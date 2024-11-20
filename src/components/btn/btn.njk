@@ -1,0 +1,17 @@
+{% macro btn(data) %}
+  {% if data.isLink %}
+    <a class="btn{% if data.addClass %} {{ data.addClass }}{% endif %}" href="{{ data.url }}">
+      <span class="btn__text">{{ data.text }}</span>
+      {% if data.icon %}
+        {{ data.icon | safe }}
+      {% endif %}
+    </a>
+  {% else %}
+    <button class="btn{% if data.addClass %} {{ data.addClass }}{% endif %}">
+      <span class="btn__text">{{ data.text }}</span>
+      {% if data.icon %}
+        {{ data.icon | safe }}
+      {% endif %}
+    </button>
+  {% endif %}
+{% endmacro %}
